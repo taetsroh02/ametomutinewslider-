@@ -55,6 +55,7 @@
 }
 
 - (IBAction)stopbutton:(UIButton *)sender {
+    [self performSegueWithIdentifier:@"IntoSecondVCSegue" sender:self];//画面遷移（せんい）の動作
     [timer invalidate]; // タイマーを停止する
 }
 

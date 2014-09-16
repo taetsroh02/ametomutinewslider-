@@ -21,6 +21,7 @@
 		07C802F319C2DFB4001A91BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C802D519C2DFB3001A91BB /* UIKit.framework */; };
 		07C802FB19C2DFB4001A91BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07C802F919C2DFB4001A91BB /* InfoPlist.strings */; };
 		07C802FD19C2DFB4001A91BB /* ametomutiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C802FC19C2DFB4001A91BB /* ametomutiTests.m */; };
+		7DC2A09A19C8812C00BF617A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC2A09919C8812C00BF617A /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		07C802F819C2DFB4001A91BB /* ametomutiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ametomutiTests-Info.plist"; sourceTree = "<group>"; };
 		07C802FA19C2DFB4001A91BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07C802FC19C2DFB4001A91BB /* ametomutiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ametomutiTests.m; sourceTree = "<group>"; };
+		7DC2A09819C8812C00BF617A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7DC2A09919C8812C00BF617A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				07C802E019C2DFB3001A91BB /* AppDelegate.h */,
 				07C802E119C2DFB3001A91BB /* AppDelegate.m */,
 				07C802E319C2DFB4001A91BB /* Main.storyboard */,
+				7DC2A09819C8812C00BF617A /* SecondViewController.h */,
+				7DC2A09919C8812C00BF617A /* SecondViewController.m */,
 				07C802E619C2DFB4001A91BB /* ViewController.h */,
 				07C802E719C2DFB4001A91BB /* ViewController.m */,
 				07C802E919C2DFB4001A91BB /* Images.xcassets */,
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DC2A09A19C8812C00BF617A /* SecondViewController.m in Sources */,
 				07C802E819C2DFB4001A91BB /* ViewController.m in Sources */,
 				07C802E219C2DFB3001A91BB /* AppDelegate.m in Sources */,
 				07C802DE19C2DFB3001A91BB /* main.m in Sources */,
@@ -456,6 +462,7 @@
 				07C8030219C2DFB4001A91BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07C8030319C2DFB4001A91BB /* Build configuration list for PBXNativeTarget "ametomutiTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				07C8030519C2DFB4001A91BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
