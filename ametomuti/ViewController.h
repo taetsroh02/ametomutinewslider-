@@ -10,4 +10,16 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)button1:(UIButton *)sender;
+- (IBAction)button2:(UIButton *)sender;
+- (IBAction)creabutton1:(UIButton *)sender;
+- (IBAction)creabutton2:(UIButton *)sender;
+- (IBAction)stopbutton:(UIButton *)sender;
+- (IBAction)value:(UISlider *)sender;
+- (IBAction)creabutton:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UILabel *countdownlabel;
+@property (weak, nonatomic) IBOutlet UILabel *sliderlabel;
+
+
+
 @end
