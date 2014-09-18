@@ -21,6 +21,8 @@
 		07C802F319C2DFB4001A91BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C802D519C2DFB3001A91BB /* UIKit.framework */; };
 		07C802FB19C2DFB4001A91BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07C802F919C2DFB4001A91BB /* InfoPlist.strings */; };
 		07C802FD19C2DFB4001A91BB /* ametomutiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C802FC19C2DFB4001A91BB /* ametomutiTests.m */; };
+		7BB1B63C19C9D933002C97BF /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB1B63B19C9D933002C97BF /* ThirdViewController.m */; };
+		7BB1B63E19C9DC00002C97BF /* sorry-cat-nb6366.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BB1B63D19C9DC00002C97BF /* sorry-cat-nb6366.jpg */; };
 		7DC2A09A19C8812C00BF617A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC2A09919C8812C00BF617A /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,9 @@
 		07C802F819C2DFB4001A91BB /* ametomutiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ametomutiTests-Info.plist"; sourceTree = "<group>"; };
 		07C802FA19C2DFB4001A91BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07C802FC19C2DFB4001A91BB /* ametomutiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ametomutiTests.m; sourceTree = "<group>"; };
+		7BB1B63A19C9D933002C97BF /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		7BB1B63B19C9D933002C97BF /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		7BB1B63D19C9DC00002C97BF /* sorry-cat-nb6366.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sorry-cat-nb6366.jpg"; sourceTree = "<group>"; };
 		7DC2A09819C8812C00BF617A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		7DC2A09919C8812C00BF617A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,11 +123,14 @@
 				07C802E019C2DFB3001A91BB /* AppDelegate.h */,
 				07C802E119C2DFB3001A91BB /* AppDelegate.m */,
 				07C802E319C2DFB4001A91BB /* Main.storyboard */,
+				7BB1B63A19C9D933002C97BF /* ThirdViewController.h */,
+				7BB1B63B19C9D933002C97BF /* ThirdViewController.m */,
 				7DC2A09819C8812C00BF617A /* SecondViewController.h */,
 				7DC2A09919C8812C00BF617A /* SecondViewController.m */,
 				07C802E619C2DFB4001A91BB /* ViewController.h */,
 				07C802E719C2DFB4001A91BB /* ViewController.m */,
 				07C802E919C2DFB4001A91BB /* Images.xcassets */,
+				7BB1B63D19C9DC00002C97BF /* sorry-cat-nb6366.jpg */,
 				07C802D819C2DFB3001A91BB /* Supporting Files */,
 			);
 			path = ametomuti;
@@ -234,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07C802EA19C2DFB4001A91BB /* Images.xcassets in Resources */,
+				7BB1B63E19C9DC00002C97BF /* sorry-cat-nb6366.jpg in Resources */,
 				07C802DC19C2DFB3001A91BB /* InfoPlist.strings in Resources */,
 				07C802E519C2DFB4001A91BB /* Main.storyboard in Resources */,
 			);
@@ -255,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DC2A09A19C8812C00BF617A /* SecondViewController.m in Sources */,
+				7BB1B63C19C9D933002C97BF /* ThirdViewController.m in Sources */,
 				07C802E819C2DFB4001A91BB /* ViewController.m in Sources */,
 				07C802E219C2DFB3001A91BB /* AppDelegate.m in Sources */,
 				07C802DE19C2DFB3001A91BB /* main.m in Sources */,

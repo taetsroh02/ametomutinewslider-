@@ -18,6 +18,8 @@
     int seconds;
     BOOL isZero;//00:00を過ぎたかどうかの判定、YESならマイナスカウントを始めるから必要
     
+    
+    
 }
 - (void)viewDidLoad
 {
@@ -55,8 +57,22 @@
 }
 
 - (IBAction)stopbutton:(UIButton *)sender {
-    [self performSegueWithIdentifier:@"IntoSecondVCSegue" sender:self];//画面遷移（せんい）の動作
-    [timer invalidate]; // タイマーを停止する
+    if (minuts  >= 00)//時間ない時間外で画面遷移の表示が違うように設定
+    {
+        [self performSegueWithIdentifier:@"IntoSecondVCSegue" sender:self];//画面遷移（せんい）の動作
+        [timer invalidate]; // タイマーを停止する
+        
+    
+    }
+    else if () {
+        
+        
+     } else {
+        NSLog(@"check out");
+        [timer invalidate];
+        
+    }
+        
 }
 
 - (IBAction)value:(UISlider *)sender {

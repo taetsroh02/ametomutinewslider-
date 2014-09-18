@@ -1,31 +1,18 @@
 //
-//  SecondViewController.m
+//  ThirdViewController.m
 //  ametomuti
 //
-//  Created by kotepe on H26/09/16.
-//  Copyright (c) 平成26年 kotepe. All rights reserved.
+//  Created by kotepTetsu on 2014/09/17.
+//  Copyright (c) 2014年 kotepTetsu. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "ThirdViewController.h"
 
-@interface SecondViewController ()
-
-
+@interface ThirdViewController ()
 
 @end
 
-@implementation SecondViewController
-{
-    
-    //int  seikou;
-    //int  shippai;
-    
-    
-    
-}
-//int seikou = 1;
-//int shippai = 0;
-
+@implementation ThirdViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -40,18 +27,6 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    //_successImage.image= [UIImage imageNamed:@"taihen_youkudekimashita@2x.peg"];
-    /*
-    if (>= seikou)
-    {_successImage.image= [UIImage imageNamed:@"taihen_youkudekimashita@2x.peg"];
-        
-    }
-    else
-    {
-        NSLog(@"check point");
-    }
-    
-    */
 }
 
 - (void)didReceiveMemoryWarning
@@ -71,10 +46,4 @@
 }
 */
 
-- (IBAction)backTop:(id)sender
-{
-    [self dismissViewControllerAnimated:YES
-                             completion:NULL];
-    
-}
 @end

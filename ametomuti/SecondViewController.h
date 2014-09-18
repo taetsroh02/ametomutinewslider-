@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface SecondViewController : UIViewController
+
+
 - (IBAction)backTop:(id)sender;
+
+
+@property (weak, nonatomic) IBOutlet UIImageView *successImage;
 
 @end
